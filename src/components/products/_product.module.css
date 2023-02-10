@@ -1,0 +1,108 @@
+.productBlock {
+    width: 85%;
+    /* height: 70vh; */
+    height: auto;
+    margin: 0 auto;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.productBlock h1 {
+    font-size: 40px;
+    color: #677DA8;
+    font-weight: 900;
+}
+
+;
+
+.shoeCardBlock {
+    height: inherit;
+    width: inherit;
+}
+
+.shoeCardBlock {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.shoeCard {
+    height: 300px;
+    width: 250px;
+    /* background-color: bisque; */
+}
+
+.shoeCardaside1 {
+    height: 65%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid crimson;
+    /* border-image: linear-gradient(to right, darkblue, rgb(232, 3, 3)) 1; */
+    border-radius: 18.5123px 18.5123px 0px 0px;
+    position: relative;
+}
+
+.heartIcon {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    padding: 5px 5px 0 5px;
+    color: #fff;
+    background: radial-gradient(51.56% 51.56% at 40.62% 29.69%, rgba(255, 255, 255, 0.19) 4.81%, rgba(255, 255, 255, 0) 100%),
+        linear-gradient(180deg, #E142AA 0%, #73FFFF 100%);
+    border-radius: 100%;
+}
+
+.shoeCardaside1 img {
+    height: 110%;
+}
+
+.shoeCardaside2 {
+    height: 35%;
+    /* background-color: rgb(200, 246, 230); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.shoeCardaside2>.div1 {
+    display: flex;
+    align-items: center;
+}
+
+.shoerating {
+    font-size: 13px;
+    color: #202020;
+}
+
+.shoeCardaside2 .star {
+    font-size: 20px;
+    color: #A61473;
+}
+
+.shoeCardaside2>.div2 {
+    font-size: 16px;
+    color: #202020;
+}
+
+.shoeCardaside2>.div3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoeCardaside2>.div3>h3 {
+    font-size: 16.6px;
+}
+
+.shoeCardaside2>.div3>button {
+    padding: 7.4px 9.3px;
+    color: #677DA8;
+    border: none;
+    border-radius: 9px;
+}

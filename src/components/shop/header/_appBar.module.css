@@ -1,0 +1,132 @@
+/* !media query */
+
+
+
+.appBarBlock {
+    height: 100px;
+    border-bottom: 1.5px solid rgb(197, 192, 192);
+    display: flex;
+    justify-content: space-between;
+    background-color: #edf0f8;
+}
+
+.appBarBlock>.aside1 {
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    /* background-color: cornflowerblue; */
+}
+
+.appBarBlock>.aside1>span {
+    color: #C3CAD9;
+    font-size: 25px;
+    padding: 10px 11px 5px 11px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.appBarBlock>.aside1>h4 {
+    font-weight: 900;
+    font-size: 18px;
+    color: #4D5E80;
+}
+
+.appBarBlock>.aside2 {
+    height: inherit;
+    width: 30%;
+}
+
+.appBarBlock>.aside2>ul {
+    /* background-color: aquamarine; */
+    height: inherit;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appBarBlock>.aside2>ul>li {
+    list-style: none;
+    color: #7D8FB3;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.appBarBlock>.aside3 {
+    height: inherit;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+}
+
+.appBarBlock>.aside3>span {
+    position: absolute;
+    font-size: 25px;
+    top: 1.5em;
+    left: 0.8em;
+    color: #C3CAD9;
+}
+
+.appBarBlock>.aside3>input {
+    padding: 1.5em 1.5em 1.5em 4em;
+    width: 96%;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: none;
+}
+.appBarSearch{
+    display: none;
+}
+.appBarBlock>.aside4 {
+    width: 20%;
+    height: inherit;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.appBarBlock>.aside4>.icon1 {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 8px 5px 8px;
+    background-color: #C3CAD9;
+    border-radius: 100%;
+}
+
+.appBarBlock>.aside4>li {
+    list-style: none;
+    font-size: 18px;
+    color: #6B7A99;
+}
+
+.appBarBlock>.aside4>.icon2 {
+    color: #C3CAD9;
+    font-size: 23px;
+    padding: 10px 13px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: relative;
+}
+
+.appBarBlock>.aside4>.icon2>div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10px;
+    width: 10px;
+    background-color: crimson;
+    border-radius: 100%;
+}
+
+.appBarBlock>.aside4>.icon3 {
+    color: #C3CAD9;
+    font-size: 23px;
+    padding: 10px 13px 8px 13px;
+    background-color: #fff;
+    border-radius: 100%;
+}
