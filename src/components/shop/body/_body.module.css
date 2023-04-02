@@ -1,0 +1,556 @@
+/* !mainBlock */
+.mainBlock {
+    display: flex;
+    background-color: #edf0f8;
+}
+
+
+/* !Aside1 starts here */
+
+.body {
+    width: 7%;
+    height: 160vh;
+    border-right: 2px solid rgb(217, 213, 213);
+}
+
+.body>.aside1 {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body>.aside1>.div1,
+.div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.body>.aside1 span {
+    padding: 15px 16px 10px 16px;
+    border-radius: 100%;
+    background-color: #fff;
+    font-size: 24px;
+    color: #C3CAD9;
+}
+
+.msgIconn {
+    position: relative;
+}
+
+.msgIcon {
+    position: relative;
+}
+
+.msgIconn>div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10px;
+    width: 10px;
+    background-color: crimson;
+    border-radius: 100%;
+}
+
+.msgIcon>div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10px;
+    width: 10px;
+    background-color: crimson;
+    border-radius: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.anushka {
+    padding: 15px 16px 10px 16px;
+    border-radius: 100%;
+    background-color: #bbd8d9 !important;
+}
+
+.anushka>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.msgIcon {
+    background-color: #f0cdc3f5 !important;
+}
+
+.msgIcon>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.rohit {
+    background-color: #aabac4e9 !important;
+}
+
+.rohit>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.nora {
+    background-color: #eeb9acf3 !important;
+
+}
+
+.nora>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+/*! Aside1 ends here */
+
+/* !--------------------------------------------------------------------------------- */
+
+/*! Aside2 start here */
+
+/* !Aside2 div1 */
+.aside2Block {
+    height: 160vh;
+    width: 70%;
+    background-color: #edf0f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid rgb(217, 213, 213);
+    position: relative;
+
+}
+
+.aside2Block>li {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1.5px solid rgb(209, 201, 201);
+    background-color: #fff;
+    color: #6B7A99;
+    list-style: none;
+    width: fit-content;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+.aside2Block>.aside1 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(217, 213, 213);
+
+}
+
+.aside2Block>.aside1>.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: inherit;
+    width: 23%;
+    /* background-color: antiquewhite; */
+}
+
+.aside2Block>.aside1>.div1>span {
+    font-size: 22px;
+    color: #C3CAD9;
+}
+
+.aside2Block>.aside1>.div1>h4 {
+    color: #6B7A99;
+}
+
+.aside2Block>.aside1>.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: inherit;
+    width: 52%;
+    /* background-color: rgb(187, 248, 170); */
+}
+
+.aside2Block>.aside1>.div2>ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    font-weight: 900;
+    color: #7D8FB3;
+}
+
+.aside2Block>.aside1>.div2>ul>li {
+    list-style: none;
+}
+
+.aside2Block>.aside1>.div3 {
+    width: 28%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    /* background-color: #5e9453; */
+    justify-content: flex-end;
+}
+
+.aside2Block>.aside1>.div3>div {
+    display: flex;
+    align-items: center;
+    padding: 0.7em 2em;
+    background-color: #8833FF;
+    border-radius: 25px;
+}
+
+.aside2Block>.aside1>.div3>div>span {
+    margin-top: 4px;
+    font-size: 20px;
+    color: #bf99f5;
+}
+
+.aside2Block>.aside1>.div3>div>li {
+    list-style: none;
+    color: white;
+}
+
+/* !Aside2 div2 */
+.aside2Block>.aside2 {
+    width: 100%;
+    height: 90px;
+    /* background-color: #bac6e8; */
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(217, 213, 213);
+}
+
+.aside2Block>.aside2>.div1 {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    width: 23%;
+    /* background-color: rgb(241, 175, 87); */
+}
+
+.aside2Block>.aside2>.div1>span {
+    margin-left: 1.2em;
+    font-size: 22px;
+    color: #C3CAD9;
+}
+
+.aside2Block>.aside2>.div1>h4 {
+    color: #6B7A99;
+}
+
+.aside2Block>.aside2>.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: inherit;
+    width: 52%;
+    /* background-color: rgb(232, 186, 127); */
+}
+
+.aside2Block>.aside2>.div2>table {
+    border-collapse: collapse;
+}
+
+
+.aside2Block>.aside2>.div2>table div {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #fff;
+    color: #6B7A99;
+    border: 1.5px solid #c3cad9;
+}
+
+/* !Aside2 div3 */
+
+.aside2Block>.aside2>.div3 {
+    width: 28%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    /* background-color: #91d3ef; */
+    justify-content: flex-end;
+}
+
+.aside2Block>.aside2>.div3>div {
+    display: flex;
+    align-items: center;
+    padding: 0.7em 2em;
+    background-color: #8833FF;
+    border-radius: 25px;
+}
+
+.aside2Block>.aside2>.div3 div {
+    border: 1.5px solid;
+}
+
+.aside2Block>.aside2>.div3>div>span {
+    margin-top: 4px;
+    font-size: 20px;
+    color: #bf99f5;
+}
+
+.aside2Block>.aside2>.div3>div>li {
+    list-style: none;
+    color: white;
+}
+
+.aside2Block>.aside2>.div3>table {
+    border-collapse: collapse;
+}
+
+.aside2Block>.aside2>.div3>table div {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #fff;
+    color: #C3CAD9;
+}
+
+/* !--------------------------------------------------------------------------------- */
+
+/*! Aside3 start here */
+
+
+.aside3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.aside3>.divBlock {
+    margin: 0 auto;
+    height: 15em;
+    width: 13em;
+    background-color: #e5e7ed;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.aside3>.divBlock>.div1 {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.aside3>.divBlock>.div1>span {
+    top: 1em;
+    left: 1em;
+    position: absolute;
+    font-weight: 100;
+    background: #fff;
+    border-radius: 100%;
+    padding: 5px 5px 1.2px 4px;
+}
+
+.aside3>.divBlock>.div1>img {
+    height: 100%;
+}
+
+.aside3>.divBlock>.div2 {
+    height: 20%;
+    /* background-color: #f7df74; */
+}
+
+.aside3>.divBlock>.div2>span {
+    color: #6B7A99;
+    font-size: 14px;
+}
+
+.aside3>.divBlock>.div3 {
+    height: 20%;
+    /* background-color: #88f774; */
+}
+
+.aside3>.divBlock>.div3>span {
+    font-size: 12px;
+    color: #7D8FB3;
+    display: flex;
+    justify-content: center;
+}
+
+/*! Aside3 ends here */
+
+/* !Aside3 Component start here */
+
+.aside3Block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 23%;
+    /* background-color: #8833FF; */
+}
+
+.aside3Block>.topBar {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aside3Block>.topBar>article {
+    height: 11em;
+    width: 16em;
+    border: 2px solid rgb(217, 213, 213);
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.aside3Block>.topBar>article>.div1 {
+    display: flex;
+    height: 70%;
+    border-bottom: 1.5px solid rgb(201, 197, 197);
+    /* background-color: #6B7A99; */
+}
+
+.aside3Block>.topBar>article>.div1>.aside1 {
+    width: 50%;
+    /* background-color: #bf99f5; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #6B7A99
+}
+
+.aside3Block>.topBar>article>.div1>.aside1>li {
+    font-size: 14px;
+}
+
+.aside3Block>.topBar>article>.div1>.aside1>h2 {
+    font-size: 24px;
+}
+
+.aside3Block>.topBar>article>.div1>.aside2 {
+    height: inherit;
+    width: 50%;
+    /* background-color: #91d3ef; */
+    display: flex;
+    align-items: center;
+}
+
+/* .aside3Block>.topBar>article>.div1>.aside2>.graph {
+    width: 100%;
+    height: 20%;
+} */
+
+.div22 {
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    color: wheat;
+    align-items: center;
+    font-size: 14px;
+    color: #6B7A99
+}
+
+
+/* footer */
+
+.aside3Block>.footer {
+    height: 40%;
+    /* background-color: #dbd2ef; */
+    color: #6B7A99;
+}
+
+.aside3Block>.footer>article {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aside3Block>.footer>article>.aside1 {
+    /* background-color: #d3d5dc; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+
+.aside3Block>.footer>article>.aside1>p {
+    font-size: 14px;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    background: #cdcdce;
+    z-index: 1;
+
+}
+
+.line {
+    position: absolute;
+    top: 5em;
+    height: 70%;
+    background: #cdcdce;
+    width: 2px;
+}
+
+.aside3Block>.footer>article>.aside2 {
+    /* background-color: #859ef5; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dot1 {
+    height: inherit;
+    width: 50%;
+    /* background-color: #5df69c; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dot1>div {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: rgba(136, 51, 255, 0.5);
+}
+
+.dot2 {
+    height: inherit;
+    width: 50%;
+    /* background-color: #5df69c; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dot2>div {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: rgba(255, 102, 51, 0.5);
+}
+
+/* !Aside3 Component ends here */
+
+@media (max-width:360px) {
+    .aside2Block>.aside2>.div2 table>th>div {
+        padding: 4px;
+    }
+
+    .aside2Block>.aside2>.div3 table>th>div {
+        padding: 6px !important;
+
+    }
+}

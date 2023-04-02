@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Source Sans Pro',
+        sans-serif;
+    background-color: #edf0f8;
+    padding-bottom: 20px;
+
+}
+
+.rootFile>.div1 {
+    background-image: linear-gradient(#FFDCF3, #D7FFFF, #FFDCF3);
+
+}
+
+#appBarSearchparent {
+    display: none;
+}
+
+
+/* !media query */
+@media screen and (max-width: 1100px) {
+    #topNav {
+        display: none;
+    }
+
+    #product {
+        display: none;
+    }
+
+    #carosel {
+        display: none;
+    }
+
+    #appBarBlock {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    #bodyAside3 {
+        display: none;
+    }
+
+    #bodyAside2 {
+        width: 100%;
+    }
+
+    #bodyAside1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 873px) {
+    #appBarAside1 {
+        width: 26%;
+    }
+
+    #appBarAside2 {
+        display: none;
+    }
+
+    #appBarAside3 {
+        display: none;
+    }
+
+
+    #appBarSearchparent {
+        display: block;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #appBarSearchparent>span {
+        font-size: 1.2em;
+        padding: 6px 10px;
+        border-radius: 100%;
+        background-color: #fff;
+        color: #abadae;
+    }
+
+    #appBarAside4 {
+        width: 40%;
+    }
+
+    #bodyAside3card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+    #bodyAside3card {
+        display: flex;
+        grid-template-columns: repeat;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 10px;
+    }
+
+    #bodyAside3card>aside {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #bodyAside3card>aside>div {
+        width: 40%;
+    }
+
+    #addProduct {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+
+    #appBarAside4 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #appBarAside1 {
+        width: 40%;
+    }
+
+    #bodyAside3card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #bodyAside3card>aside {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+
+    #bodyAside3card>aside>div {
+        width: 70%;
+    }
+
+    #clayStoneAppbar {
+        display: none;
+    }
+
+    #clayStoneRing {
+        display: none;
+    }
+
+    #crossAppbsr {
+        display: none;
+    }
+
+    #draftAppbar {
+        display: none;
+    }
+
+    #bodyAside2li {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #addProduct {
+        padding: 4px 8px;
+        font-size: 10px;
+        width: auto;
+    }
+
+}
